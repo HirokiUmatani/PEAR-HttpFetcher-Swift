@@ -14,7 +14,7 @@
 		F4CC416A1BE831ED005D4AB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CC41681BE831ED005D4AB3 /* LaunchScreen.storyboard */; };
 		F4CC41751BE831ED005D4AB3 /* HttpFetcher_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CC41741BE831ED005D4AB3 /* HttpFetcher_SwiftTests.swift */; };
 		F4CC41801BE831ED005D4AB3 /* HttpFetcher_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CC417F1BE831ED005D4AB3 /* HttpFetcher_SwiftUITests.swift */; };
-		F4CC41911BE832AE005D4AB3 /* PEAR-HttpFetcher-Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CC41901BE832AE005D4AB3 /* PEAR-HttpFetcher-Swift.swift */; };
+		F4CC41911BE832AE005D4AB3 /* HttpFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CC41901BE832AE005D4AB3 /* HttpFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		F4CC417B1BE831ED005D4AB3 /* HttpFetcher-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HttpFetcher-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CC417F1BE831ED005D4AB3 /* HttpFetcher_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpFetcher_SwiftUITests.swift; sourceTree = "<group>"; };
 		F4CC41811BE831ED005D4AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4CC41901BE832AE005D4AB3 /* PEAR-HttpFetcher-Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PEAR-HttpFetcher-Swift.swift"; sourceTree = "<group>"; };
+		F4CC41901BE832AE005D4AB3 /* HttpFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +131,7 @@
 		F4CC418D1BE8321D005D4AB3 /* PEAR-HttpFetcher-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				F4CC41901BE832AE005D4AB3 /* PEAR-HttpFetcher-Swift.swift */,
+				F4CC41901BE832AE005D4AB3 /* HttpFetcher.swift */,
 			);
 			name = "PEAR-HttpFetcher-Swift";
 			path = "../PEAR-HttpFetcher-Swift";
@@ -271,7 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4CC41911BE832AE005D4AB3 /* PEAR-HttpFetcher-Swift.swift in Sources */,
+				F4CC41911BE832AE005D4AB3 /* HttpFetcher.swift in Sources */,
 				F4CC41621BE831ED005D4AB3 /* ViewController.swift in Sources */,
 				F4CC41601BE831ED005D4AB3 /* AppDelegate.swift in Sources */,
 			);
@@ -500,6 +500,7 @@
 				F4CC41861BE831ED005D4AB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4CC41871BE831ED005D4AB3 /* Build configuration list for PBXNativeTarget "HttpFetcher-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +509,7 @@
 				F4CC41891BE831ED005D4AB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4CC418A1BE831ED005D4AB3 /* Build configuration list for PBXNativeTarget "HttpFetcher-SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +518,7 @@
 				F4CC418C1BE831ED005D4AB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
