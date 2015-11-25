@@ -14,22 +14,21 @@ pod 'PEAR-HttpFetcher-Swift'
 </code>
 
 ### Usage
-<code>
-/* HTTP SYNC GET*/
-        let fetcher:HttpFetcher = HttpFetcher()
-        fetcher.syncFetchGET(
-            urlString: "http://pear.chat",
-            success:
-            {
-                (data:NSData)
-                -> Void in
-                NSLog("HTTP SYNC GET \n%@",  NSString(data:data, encoding:NSUTF8StringEncoding)!);
-            })
-            {
-                (error:NSError)
-                -> Void in
-            }
-        
+```
+        /* HTTP SYNC GET*/  
+        let fetcher:HttpFetcher = HttpFetcher()  
+        fetcher.syncFetchGET(  
+            urlString: "http://pear.chat",  
+            success:  
+            {  
+                (data:NSData)  
+                -> Void in  
+                NSLog("HTTP SYNC GET \n%@",  NSString(data:data, encoding:NSUTF8StringEncoding)!);  
+            })  
+            {  
+                (error:NSError)  
+                -> Void in  
+            }  
         /* HTTP ASYNC GET*/
         fetcher.asyncFetchGET(
             urlString: "http://pear.chat",
@@ -74,7 +73,7 @@ pod 'PEAR-HttpFetcher-Swift'
                 (error:NSError)
                 -> Void in
         }
-</code>
+```
 
 ### Document
 [document library](http://cocoadocs.org/docsets/PEAR-HttpFetcher-Swift)
